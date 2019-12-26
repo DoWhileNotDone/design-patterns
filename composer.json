@@ -1,0 +1,28 @@
+{
+    "name": "davegthemighty/design-patterns",
+    "description": "Design Pattern Playground",
+    "type": "project",
+    "authors": [
+        {
+            "name": "DavegTheMighty",
+            "email": "dave@example.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.3"
+    },
+    "require-dev": {
+      "phpunit/phpunit": "^7",
+      "php-coveralls/php-coveralls": "^2.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "DavegTheMighty\\DesignPatterns\\": "src/"
+      }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DavegTheMighty\\DesignPatterns\\Test\\": "tests/"
+        }
+    }
+}
