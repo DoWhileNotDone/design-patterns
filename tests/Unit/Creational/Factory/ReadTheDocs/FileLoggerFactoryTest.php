@@ -1,13 +1,13 @@
 <?php declare(strict_types=1);
 
-namespace DavegTheMighty\DesignPatterns\Test\Unit\Creational\Factory;
+namespace DavegTheMighty\DesignPatterns\Test\Unit\Creational\Factory\ReadTheDocs;
 
 use PHPUnit\Framework\TestCase;
 
-use DavegTheMighty\DesignPatterns\Creational\Factory\LoggerInterface;
-use DavegTheMighty\DesignPatterns\Creational\Factory\LoggerFactoryInterface;
-use DavegTheMighty\DesignPatterns\Creational\Factory\FileLogger;
-use DavegTheMighty\DesignPatterns\Creational\Factory\FileLoggerFactory;
+use DavegTheMighty\DesignPatterns\Creational\Factory\ReadTheDocs\LoggerInterface;
+use DavegTheMighty\DesignPatterns\Creational\Factory\ReadTheDocs\LoggerFactoryInterface;
+use DavegTheMighty\DesignPatterns\Creational\Factory\ReadTheDocs\FileLogger;
+use DavegTheMighty\DesignPatterns\Creational\Factory\ReadTheDocs\FileLoggerFactory;
 
 final class FileLoggerFactoryTest extends TestCase
 {
