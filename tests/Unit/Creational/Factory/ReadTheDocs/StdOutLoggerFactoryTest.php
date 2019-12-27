@@ -1,13 +1,13 @@
 <?php declare(strict_types=1);
 
-namespace DavegTheMighty\DesignPatterns\Test\Unit\Creational\Factory;
+namespace DavegTheMighty\DesignPatterns\Test\Unit\Creational\Factory\ReadTheDocs;
 
 use PHPUnit\Framework\TestCase;
 
-use DavegTheMighty\DesignPatterns\Creational\Factory\LoggerInterface;
-use DavegTheMighty\DesignPatterns\Creational\Factory\LoggerFactoryInterface;
-use DavegTheMighty\DesignPatterns\Creational\Factory\StdOutLogger;
-use DavegTheMighty\DesignPatterns\Creational\Factory\StdOutLoggerFactory;
+use DavegTheMighty\DesignPatterns\Creational\Factory\ReadTheDocs\LoggerInterface;
+use DavegTheMighty\DesignPatterns\Creational\Factory\ReadTheDocs\LoggerFactoryInterface;
+use DavegTheMighty\DesignPatterns\Creational\Factory\ReadTheDocs\StdOutLogger;
+use DavegTheMighty\DesignPatterns\Creational\Factory\ReadTheDocs\StdOutLoggerFactory;
 
 final class StdOutLoggerFactoryTest extends TestCase
 {
